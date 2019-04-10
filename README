@@ -1,5 +1,5 @@
 This is a fork of Marcel Lüthis repository, which in turn is a clone of the corresponding subversion repository over at Sourceforge.
 
-The intention is to create a build which let's you run the application also on Macs with a reasonably modern JVM. The reason that this application does not run easily on Macs is it's use of Java3D which originally was distributed with the JVM. However in the meantime, at least for Macs, the Java3D library is no more distribute with Oracle's JVM.
+The intention is to create a build which let's you run the application also on Macs with a reasonably modern JVM. The reason that this application does not run easily on Macs is it's use of Java3D which originally was distributed with the JVM. However in the meantime, at least for Macs, the Java3D library is no more distributed with Oracle's JVM.
 
 The build will be converted to maven and the 1.6 version of Java3D together with JOGL as the underlying graphics library will be used. 
