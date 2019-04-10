@@ -9,8 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>java3d-install</module>
         <module>xlogo4schools-core</module>
         <module>xlogo4schools-allinonejar</module>
+
     </modules>
 
 

@@ -1,0 +1,10 @@
+This module serves to install java3d-core, java3d-util and vecmath from the java3d 1.6 series into the local maven
+repository as these are not available on maven central.
+
+The jar files were built by cloning the github repos
+
+https://github.com/hharrison/java3d-core
+https://github.com/hharrison/java3d-util
+https://github.com/hharrison/vecmath
+
+checkout of the corresponding tag and Ant build.
