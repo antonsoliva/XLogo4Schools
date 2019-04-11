@@ -13,6 +13,7 @@
         <module>xlogo4schools-core</module>
         <module>xlogo4schools-allinonejar</module>
         <module>xlogo4schools-mac</module>
+        <module>xlogo4schools-win</module>
     </modules>
 
 
