@@ -12,7 +12,7 @@
         <module>java3d-install</module>
         <module>xlogo4schools-core</module>
         <module>xlogo4schools-allinonejar</module>
-
+        <module>xlogo4schools-mac</module>
     </modules>
 
 

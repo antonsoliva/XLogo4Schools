@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xlogo4schools-parent</artifactId>
+        <groupId>xlogo4schools</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xlogo4schools-mac</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>xlogo4schools</groupId>
+            <artifactId>xlogo4schools-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>sh.tak.appbundler</groupId>
+            <artifactId>appbundle-maven-plugin</artifactId>
+            <version>1.2.0</version>
+            <configuration>
+                <mainClass>xlogo.Logo</mainClass>
+                <!-- if you want to bundle a JRE add the path to a copy of a Mac OS-X JRE here - this works on non Mac build environments as well.
+                <jrePath>${jre-folder}</jrePath>
+                -->
+                <generateDiskImageFile>true</generateDiskImageFile>
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>bundle</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+</project>
